@@ -6,12 +6,11 @@ function Contact() {
       <div className="text-center p-8 bg-white rounded-lg shadow-lg">
         <h1 className="text-4xl mb-8 font-bold text-red-600">
           <a
-            href="https://www.instagram.com/umedjon_mamadaminov?igsh=MTIxbHlodmc2dWthMw=="
             className="hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
-           BY AKBAROV SHODMONBEK    
+            BY AKBAROV SHODMONBEK
           </a>
         </h1>
         <p className="text-lg text-gray-700 mb-4">
@@ -20,7 +19,7 @@ function Contact() {
         <p className="text-lg text-gray-700">
           Also available on{" "}
           <a
-            href="https://t.me/Mamadaminov_U"
+            href="https://t.me/Akbarov_12_02"
             className="text-blue-600 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
