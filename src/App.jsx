@@ -12,15 +12,16 @@ import Mainlayout from "./layouts/Mainlayout";
 import ProtectedRoutes from "./components/ProtectedRoutes";
 
 import Home from "./pages/Home";
-
 import About from "./pages/About";
-
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import Login from "./pages/Login";
 import Singup from "./pages/Singup";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase/firebaseConfin";
+
+//actions
+// import { action as SignupActions } from "./pages/Singup";
 
 function App() {
   const { user, dispatch, authReady } = useContext(GlobalContext);
@@ -59,6 +60,7 @@ function App() {
     {
       path: "/singup",
       element: user ? <Navigate to="/" /> : <Singup />,
+      action: SignupActions,
     },
   ]);
 

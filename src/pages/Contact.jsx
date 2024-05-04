@@ -27,7 +27,7 @@ function Contact() {
           >
             Telegram
           </a>
-          .
+          
         </p>
       </div>
     </div>
